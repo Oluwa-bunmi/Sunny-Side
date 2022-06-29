@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+body .sectionOne {
+  background-color: blue;
+}
+
+body .sectionOne header {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .sectionOne header .navLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .sectionOne header .navLinks a {
+  padding: 1rem;
+  font-size: 18px;
+  color: #fff;
+}
+
+body .sectionOne header .navLinks button {
+  color: #23303e;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */

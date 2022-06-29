@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+body {
+  .sectionOne {
+    //    background-image: url(/images/desktop/image-header.jpg);
+    background-color: blue;
+    header {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .navLinks {
+        display: flex;
+        align-items: center;
+        a {
+          padding: 1rem;
+          font-size: 18px;
+          color: #fff;
+        }
+        button {
+          color: hsl(212, 27%, 19%);
+          text-transform: uppercase;
+          padding: 10px 15px;
+          border-radius: 20px;
+          border: none;
+        }
+      }
+    }
+  }
+}
