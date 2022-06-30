@@ -105,4 +105,20 @@ body {
       display: none;
     }
   }
+  #sectionTwo{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      
+      .first{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+          background-color: hsl(0, 0%, 100%);
+       h3{
+           font-size: 2.5rem;
+             font-family: "Fraunces", serif;
+       }
+      }
+  }
 }
