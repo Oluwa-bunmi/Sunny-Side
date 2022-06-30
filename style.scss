@@ -23,18 +23,32 @@ body {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      position: relative;
       .navLinks {
         display: flex;
         align-items: center;
         @media screen and (max-width:768px){
-            display: none;
+            // display: none;
+            width: 100%;
+            flex-direction: column;
+            background-color: #fff;
+            z-index: 1;
+            // margin-top: 5rem;
+            position: absolute;
+            top: 90px;
+            right: 0;
+            
             
         }
         a {
           padding: 1rem;
           font-size: 19px;
           color: #fff;
-           font-family: 'Barlow', sans-serif;
+          font-family: 'Barlow', sans-serif;
+          font-weight: 600;
+                @media screen and (max-width:768px){
+            color:   hsl(213, 9%, 39%);
+                }
         }
         button {
           color: hsl(212, 27%, 19%);
@@ -43,6 +57,9 @@ body {
           border-radius: 20px;
           border: none;
           font-family: 'Fraunces', serif;
+             @media screen and (max-width:768px){
+background-color: hsl(51, 100%, 49%);
+             }
         }
       }
     }
