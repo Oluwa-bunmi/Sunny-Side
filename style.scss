@@ -4,6 +4,8 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   text-decoration: none;
+//   font-family: 'Barlow', sans-serif;
+// font-family: 'Fraunces', serif;
 }
 body {
   .sectionOne {
@@ -14,6 +16,7 @@ body {
     background-position: center;
     padding-bottom: 15rem;
     color: #fff;
+   
     header {
       width: 90%;
       margin: auto;
@@ -23,10 +26,15 @@ body {
       .navLinks {
         display: flex;
         align-items: center;
+        @media screen and (max-width:768px){
+            display: none;
+            
+        }
         a {
           padding: 1rem;
-          font-size: 18px;
+          font-size: 19px;
           color: #fff;
+           font-family: 'Barlow', sans-serif;
         }
         button {
           color: hsl(212, 27%, 19%);
@@ -34,17 +42,27 @@ body {
           padding: 10px 15px;
           border-radius: 20px;
           border: none;
+          font-family: 'Fraunces', serif;
         }
       }
     }
     header + div {
       h1 {
-     
+      font-family: 'Fraunces', serif;
+      font-size: 2rem;
+      letter-spacing: 0.5rem;
         margin: {
           top: 5rem;
           bottom: 4rem;
         }
       }
+    }
+    i{
+        display: none;
+                @media screen and (max-width:768px){
+                    display: block;
+                    font-size: 1.5rem;
+                }
     }
   }
 }
