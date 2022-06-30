@@ -16,6 +16,9 @@ body {
     background-position: center;
     padding-bottom: 15rem;
     color: #fff;
+    @media screen and (max-width: 768px) {
+      background-image: url(/images/mobile/image-header.jpg);
+    }
 
     header {
       width: 90%;
@@ -24,7 +27,7 @@ body {
       justify-content: space-between;
       align-items: center;
       position: relative;
-          padding-top: 2rem;
+      padding-top: 2rem;
       .navLinks {
         display: flex;
         align-items: center;
@@ -35,15 +38,21 @@ body {
           flex-direction: column;
           background-color: #fff;
           z-index: 1;
-          // margin-top: 5rem;
+
           position: absolute;
           top: 90px;
           right: 0;
-        padding: {
-          top: 3rem;
-          bottom: 2rem;
-        }
-        clip-path: polygon(0px 29px, 90.18% 28.5px, 101.64% -1.67%, 100% 100%, 0px 100%); 
+          padding: {
+            top: 3rem;
+            bottom: 2rem;
+          }
+          clip-path: polygon(
+            0px 29px,
+            90.18% 28.5px,
+            101.64% -1.67%,
+            100% 100%,
+            0px 100%
+          );
         }
         a {
           padding: 1rem;
@@ -76,6 +85,11 @@ body {
         margin: {
           top: 5rem;
           bottom: 4rem;
+        
+        }
+        @media screen and (max-width: 768px) {
+          letter-spacing: 0.2rem;
+          margin-bottom: 2rem;
         }
       }
     }
@@ -87,10 +101,8 @@ body {
         margin-top: -9px;
       }
     }
-    .fa-times{
-        display: none;
-         
-
+    .fa-times {
+      display: none;
     }
   }
 }

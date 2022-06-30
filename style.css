@@ -17,6 +17,12 @@ body .sectionOne {
   color: #fff;
 }
 
+@media screen and (max-width: 768px) {
+  body .sectionOne {
+    background-image: url(/images/mobile/image-header.jpg);
+  }
+}
+
 body .sectionOne header {
   width: 90%;
   margin: auto;
@@ -97,6 +103,13 @@ body .sectionOne header + div h1 {
   letter-spacing: 0.5rem;
   margin-top: 5rem;
   margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  body .sectionOne header + div h1 {
+    letter-spacing: 0.2rem;
+    margin-bottom: 2rem;
+  }
 }
 
 body .sectionOne i {
