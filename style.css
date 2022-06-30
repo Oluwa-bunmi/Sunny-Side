@@ -139,21 +139,23 @@ body #sectionTwo {
 }
 
 body #sectionTwo .first {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   background-color: white;
+  width: 70%;
+  margin: auto;
+  color: #23303e;
+  text-align: left;
 }
 
 body #sectionTwo .first h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: "Fraunces", serif;
+}
+
+body #sectionTwo .first p {
+  font-family: "Barlow", sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 24px;
+  font-size: 18px;
 }
 /*# sourceMappingURL=style.css.map */
