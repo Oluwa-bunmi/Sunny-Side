@@ -17,7 +17,7 @@ body .sectionOne {
   color: #fff;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
   body .sectionOne {
     background-image: url(/images/mobile/image-header.jpg);
   }
@@ -48,7 +48,7 @@ body .sectionOne header .navLinks {
           align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   body .sectionOne header .navLinks {
     display: none;
     width: 100%;
@@ -76,7 +76,7 @@ body .sectionOne header .navLinks a {
   font-weight: 600;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   body .sectionOne header .navLinks a {
     color: #5a636c;
   }
@@ -91,7 +91,7 @@ body .sectionOne header .navLinks button {
   font-family: "Fraunces", serif;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   body .sectionOne header .navLinks button {
     background-color: #fad400;
   }
@@ -105,7 +105,7 @@ body .sectionOne header + div h1 {
   margin-bottom: 4rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   body .sectionOne header + div h1 {
     letter-spacing: 0.2rem;
     margin-bottom: 2rem;
@@ -116,7 +116,7 @@ body .sectionOne i {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   body .sectionOne i {
     display: block;
     font-size: 1.5rem;
@@ -138,24 +138,74 @@ body #sectionTwo {
           align-items: center;
 }
 
-body #sectionTwo .first {
-  background-color: white;
+@media screen and (max-width: 990px) {
+  body #sectionTwo {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+body #sectionTwo .transform {
   width: 70%;
   margin: auto;
   color: #23303e;
-  text-align: left;
+  padding-bottom: 2rem;
 }
 
-body #sectionTwo .first h3 {
+body #sectionTwo .transform h3 {
   font-size: 2rem;
   font-family: "Fraunces", serif;
+  padding-top: 3rem;
 }
 
-body #sectionTwo .first p {
+body #sectionTwo .transform p {
   font-family: "Barlow", sans-serif;
   margin-top: 2rem;
   margin-bottom: 2rem;
   line-height: 24px;
   font-size: 18px;
+  color: #a7abae;
+}
+
+body #sectionTwo .transform a {
+  font-family: "Fraunces", serif;
+  border-bottom: 7px solid #f6e26f;
+  color: #25564b;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+@media screen and (max-width: 990px) {
+  body #sectionTwo .transform {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    text-align: center;
+    width: 87%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  body #sectionTwo .yellowEgg img:first-child {
+    display: none;
+  }
+}
+
+body #sectionTwo .yellowEgg img:nth-child(2) {
+  display: none;
+}
+
+@media screen and (max-width: 990px) {
+  body #sectionTwo .yellowEgg img:nth-child(2) {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  body #sectionTwo .yellowEgg {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
 }
 /*# sourceMappingURL=style.css.map */
