@@ -108,66 +108,87 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+
     // background-color: hsl(7deg, 67%, 96%);
-  
-        @media screen and (max-width: 990px){
-grid-template-columns: 1fr;
 
-        }
+    @media screen and (max-width: 990px) {
+      grid-template-columns: 1fr;
+    }
+    h3 {
+      font-size: 2rem;
+      font-family: "Fraunces", serif;
+      padding-top: 3rem;
+    }
+    p {
+      font-family: "Barlow", sans-serif;
+      margin: {
+        top: 2rem;
+        bottom: 2rem;
+      }
+      line-height: 24px;
+      font-size: 18px;
+      color: hsl(210, 4%, 67%);
+    }
+    a {
+      font-family: "Fraunces", serif;
+      border-bottom: 7px solid hsl(51, 88%, 70%);
+      color: hsl(167, 40%, 24%);
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+    }
 
-    .transform{
-      
-   
+    .transform {
       width: 70%;
       margin: auto;
       color: hsl(212, 27%, 19%);
-  padding-bottom: 2rem;
-      h3 {
-        font-size: 2rem;
-        font-family: "Fraunces", serif;
-        padding-top: 3rem;
+      padding-bottom: 2rem;
+
+      @media screen and (max-width: 990px) {
+        order: 2;
+        text-align: center;
+        width: 87%;
       }
-      p {
-        font-family: "Barlow", sans-serif;
-        margin: {
-          top: 2rem;
-          bottom: 2rem;
-         
-        }
-         line-height: 24px;
-        font-size: 18px;
-        color: hsl(210, 4%, 67%);
-      }
-      a{
-          font-family: "Fraunces", serif;
-          border-bottom: 7px solid hsl(51, 88%, 70%);
-          color: hsl(167, 40%, 24%);
-         border-bottom-left-radius: 6px;
-         border-bottom-right-radius: 6px;
-       
-          
-      }
-              @media screen and (max-width: 990px){
-                  order: 2;
-                  text-align: center;
-                  width: 87%;
-              }
     }
-    .yellowEgg{
-        img:first-child{
-                @media screen and (max-width: 990px){
-                    display: none;
-                }
+    .yellowEgg {
+      img:first-child {
+        @media screen and (max-width: 990px) {
+          display: none;
         }
-        img:nth-child(2){
-            display: none;
-                @media screen and (max-width: 990px){
-                    display: block;
-                }
+      }
+      img:nth-child(2) {
+        display: none;
+        @media screen and (max-width: 990px) {
+          display: block;
         }
-         @media screen and (max-width: 990px){
-                  order: 1;
-              }
+      }
+      @media screen and (max-width: 990px) {
+        order: 1;
+      }
+    }
+    .standOut {
+      width: 70%;
+      margin: auto;
+      color: hsl(212, 27%, 19%);
+      padding-bottom: 2rem;
+      @media screen and (max-width: 990px) {
+        order: 4;
+      }
+    }
+    .cup {
+      img:first-child {
+        @media screen and (max-width: 990px) {
+          display: none;
+        }
+      }
+      img:nth-child(2) {
+        display: none;
+        @media screen and (max-width: 990px) {
+          display: block;
+        }
+      }
+      @media screen and (max-width: 990px) {
+        order: 3;
+      }
     }
   }
 }

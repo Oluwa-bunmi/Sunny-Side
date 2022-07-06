@@ -145,20 +145,13 @@ body #sectionTwo {
   }
 }
 
-body #sectionTwo .transform {
-  width: 70%;
-  margin: auto;
-  color: #23303e;
-  padding-bottom: 2rem;
-}
-
-body #sectionTwo .transform h3 {
+body #sectionTwo h3 {
   font-size: 2rem;
   font-family: "Fraunces", serif;
   padding-top: 3rem;
 }
 
-body #sectionTwo .transform p {
+body #sectionTwo p {
   font-family: "Barlow", sans-serif;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -167,12 +160,19 @@ body #sectionTwo .transform p {
   color: #a7abae;
 }
 
-body #sectionTwo .transform a {
+body #sectionTwo a {
   font-family: "Fraunces", serif;
   border-bottom: 7px solid #f6e26f;
   color: #25564b;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
+}
+
+body #sectionTwo .transform {
+  width: 70%;
+  margin: auto;
+  color: #23303e;
+  padding-bottom: 2rem;
 }
 
 @media screen and (max-width: 990px) {
@@ -206,6 +206,45 @@ body #sectionTwo .yellowEgg img:nth-child(2) {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
+  }
+}
+
+body #sectionTwo .standOut {
+  width: 70%;
+  margin: auto;
+  color: #23303e;
+  padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 990px) {
+  body #sectionTwo .standOut {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  body #sectionTwo .cup img:first-child {
+    display: none;
+  }
+}
+
+body #sectionTwo .cup img:nth-child(2) {
+  display: none;
+}
+
+@media screen and (max-width: 990px) {
+  body #sectionTwo .cup img:nth-child(2) {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  body #sectionTwo .cup {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
   }
 }
 /*# sourceMappingURL=style.css.map */
