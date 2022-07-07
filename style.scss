@@ -218,7 +218,7 @@ body {
         color: hsl(167, 40%, 24%);
         @media screen and (max-width: 990px) {
           width: 85%;
-           margin-bottom: 4rem;
+          margin-bottom: 4rem;
         }
       }
     }
@@ -235,7 +235,7 @@ body {
         width: 60%;
         margin: 2rem auto;
         color: hsl(198, 62%, 26%);
-         @media screen and (max-width: 990px) {
+        @media screen and (max-width: 990px) {
           width: 85%;
           margin-bottom: 4rem;
         }
@@ -247,6 +247,32 @@ body {
         background-image: url(/images/mobile/image-photography.jpg);
         order: 5;
         padding-top: 60%;
+      }
+    }
+  }
+  .testimonial {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    color: hsl(232deg, 10%, 55%);
+    
+    h3 {
+      padding: 4rem 0;
+      font-family: "Fraunces", serif;
+    }
+    .clients {
+      display: flex;
+      justify-content: space-between;
+      font-family: 'Barlow', sans-serif;
+      .client {
+        img {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+        }
+        p{
+          width: 60%;
+        }
       }
     }
   }

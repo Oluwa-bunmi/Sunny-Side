@@ -339,4 +339,36 @@ body #sectionTwo .graphicDesign + div p {
     padding-top: 60%;
   }
 }
+
+body .testimonial {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  color: #818498;
+}
+
+body .testimonial h3 {
+  padding: 4rem 0;
+  font-family: "Fraunces", serif;
+}
+
+body .testimonial .clients {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Barlow', sans-serif;
+}
+
+body .testimonial .clients .client img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+body .testimonial .clients .client p {
+  width: 60%;
+}
 /*# sourceMappingURL=style.css.map */
