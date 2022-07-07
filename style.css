@@ -369,19 +369,19 @@ body .testimonial .clients {
   }
 }
 
-body .testimonial .clients .client img {
+body .testimonial .clients div img {
   width: 20%;
   border-radius: 50%;
   margin-bottom: 2rem;
 }
 
-body .testimonial .clients .client p {
+body .testimonial .clients div p {
   color: #5a636c;
   font-weight: 600;
   line-height: 1.5;
 }
 
-body .testimonial .clients .client h4 {
+body .testimonial .clients div h4 {
   margin-top: 2.5rem;
   margin-bottom: 0.5rem;
   font-family: "Fraunces", serif;
