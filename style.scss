@@ -151,6 +151,7 @@ body {
     }
     .yellowEgg {
       img:first-child {
+        margin-bottom: -5px;
         @media screen and (max-width: 990px) {
           display: none;
         }
@@ -176,6 +177,7 @@ body {
     }
     .cup {
       img:first-child {
+        margin-bottom: -5px;
         @media screen and (max-width: 990px) {
           display: none;
         }
@@ -188,6 +190,27 @@ body {
       }
       @media screen and (max-width: 990px) {
         order: 3;
+      }
+    }
+    .graphicDesign {
+      text-align: center;
+      color: hsl(167, 40%, 24%);
+      background-image: url(/images/desktop/image-graphic-design.jpg);
+      padding-top: 20rem;
+      p {
+        width: 60%;
+        margin: 2rem auto;
+        color: hsl(167, 40%, 24%);
+      }
+    }
+    .graphicDesign + div {
+      text-align: center;
+
+      background-image: url(/images/desktop/image-photography.jpg);
+      padding-top: 20rem;
+      p {
+        width: 60%;
+        margin: 2rem auto;
       }
     }
   }
