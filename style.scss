@@ -218,6 +218,34 @@ body {
     //    color:  hsl(198, 62%, 26%);
     //   }
     // }
+    .cherry{
+      img:first-child{
+         @media screen and (max-width: 990px) {
+           display: none;
+         }
+      }
+      img:nth-child(2){
+        display: none;
+         @media screen and (max-width: 990px) {
+           display: block;
+           order: 5;
+         }
+      }
+    }
+    .orange{
+        img:first-child{
+         @media screen and (max-width: 990px) {
+           display: none;
+         }
+      }
+      img:nth-child(2){
+        display: none;
+         @media screen and (max-width: 990px) {
+           display: block;
+           order: 6;
+         }
+      }
+    }
     .graphicDesign {
       transform: translateY(-100%);
       text-align: center;

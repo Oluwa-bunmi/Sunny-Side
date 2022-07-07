@@ -256,6 +256,44 @@ body #sectionTwo .cup img:nth-child(2) {
   }
 }
 
+@media screen and (max-width: 990px) {
+  body #sectionTwo .cherry img:first-child {
+    display: none;
+  }
+}
+
+body #sectionTwo .cherry img:nth-child(2) {
+  display: none;
+}
+
+@media screen and (max-width: 990px) {
+  body #sectionTwo .cherry img:nth-child(2) {
+    display: block;
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  body #sectionTwo .orange img:first-child {
+    display: none;
+  }
+}
+
+body #sectionTwo .orange img:nth-child(2) {
+  display: none;
+}
+
+@media screen and (max-width: 990px) {
+  body #sectionTwo .orange img:nth-child(2) {
+    display: block;
+    -webkit-box-ordinal-group: 7;
+        -ms-flex-order: 6;
+            order: 6;
+  }
+}
+
 body #sectionTwo .graphicDesign {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
