@@ -257,26 +257,28 @@ body #sectionTwo .cup img:nth-child(2) {
 }
 
 body #sectionTwo .graphicDesign {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
   text-align: center;
   color: #25564b;
-  background-image: url(/images/desktop/image-graphic-design.jpg);
-  padding-top: 20rem;
 }
 
 body #sectionTwo .graphicDesign p {
-  width: 60%;
-  margin: 2rem auto;
+  width: 72%;
+  margin: 4rem auto;
   color: #25564b;
 }
 
 body #sectionTwo .graphicDesign + div {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  color: #19536b;
   text-align: center;
-  background-image: url(/images/desktop/image-photography.jpg);
-  padding-top: 20rem;
 }
 
 body #sectionTwo .graphicDesign + div p {
   width: 60%;
-  margin: 2rem auto;
+  margin: 4rem auto;
+  color: #19536b;
 }
 /*# sourceMappingURL=style.css.map */
