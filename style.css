@@ -344,10 +344,10 @@ body .testimonial {
   width: 90%;
   margin: auto;
   text-align: center;
-  color: #818498;
 }
 
 body .testimonial h3 {
+  color: #818498;
   padding: 4rem 0;
   font-family: "Fraunces", serif;
 }
@@ -356,10 +356,8 @@ body .testimonial .clients {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  font-family: 'Barlow', sans-serif;
+  gap: 2.6rem;
+  font-family: "Barlow", sans-serif;
 }
 
 body .testimonial .clients .client img {
@@ -369,6 +367,16 @@ body .testimonial .clients .client img {
 }
 
 body .testimonial .clients .client p {
-  width: 60%;
+  color: #5a636c;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+body .testimonial .clients .client h4 {
+  margin-top: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  color: #23303e;
 }
 /*# sourceMappingURL=style.css.map */
