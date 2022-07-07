@@ -192,79 +192,106 @@ body {
         order: 3;
       }
     }
+    .graphicDesign {
+      text-align: center;
+      color: hsl(167, 40%, 24%);
+      background-image: url(/images/desktop/image-graphic-design.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      padding-top: 50%;
+      @media screen and (min-width: 1215px) {
+        padding-top: 54%;
+      }
+      @media screen and (min-width: 1884px) {
+        padding-top: 57%;
+      }
+
+      p {
+        width: 60%;
+        margin: 2rem auto;
+        color: hsl(167, 40%, 24%);
+      }
+    }
+    .graphicDesign + div {
+      text-align: center;
+      color: hsl(198, 62%, 26%);
+
+      background-image: url(/images/desktop/image-photography.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 54%;
+      background-position: center;
+      p {
+        width: 60%;
+        margin: 2rem auto;
+        color: hsl(198, 62%, 26%);
+      }
+       @media screen and (min-width: 1398px) {
+        padding-top: 57%;
+      }
+    }
+    .cherry {
+      img:first-child {
+        @media screen and (max-width: 990px) {
+          display: none;
+        }
+      }
+      img:nth-child(2) {
+        display: none;
+        @media screen and (max-width: 990px) {
+          display: block;
+        }
+      }
+      @media screen and (max-width: 990px) {
+        order: 5;
+      }
+    }
+    .orange {
+      img:first-child {
+        @media screen and (max-width: 990px) {
+          display: none;
+        }
+      }
+      img:nth-child(2) {
+        display: none;
+        @media screen and (max-width: 990px) {
+          display: block;
+        }
+      }
+      @media screen and (max-width: 990px) {
+        order: 6;
+      }
+    }
     // .graphicDesign {
+    //   transform: translateY(-100%);
     //   text-align: center;
     //   color: hsl(167, 40%, 24%);
-    //   background-image: url(/images/desktop/image-graphic-design.jpg);
-    //   background-repeat: no-repeat;
-    //   padding-top: 20rem;
+    //   @media screen and (max-width: 990px) {
+    //     transform: translateY(-320%);
 
+    //     order: 8;
+    //   }
     //   p {
     //     width: 72%;
-    //     margin: 2rem auto;
+    //     margin: 4rem auto;
     //     color: hsl(167, 40%, 24%);
     //   }
     // }
     // .graphicDesign + div {
+    //   transform: translateY(-100%);
+    //   color: hsl(198, 62%, 26%);
     //   text-align: center;
-    //   color:  hsl(198, 62%, 26%);
-
-    //   background-image: url(/images/desktop/image-photography.jpg);
-    //   background-repeat: no-repeat;
-    //   padding-top: 20rem;
     //   p {
     //     width: 60%;
-    //     margin: 2rem auto;
-    //    color:  hsl(198, 62%, 26%);
+    //     margin: 4rem auto;
+    //     color: hsl(198, 62%, 26%);
+    //   }
+    //    @media screen and (max-width: 990px) {
+    //     transform: translateY(-85%);
+
+    //     order: 8;
     //   }
     // }
-    .cherry{
-      img:first-child{
-         @media screen and (max-width: 990px) {
-           display: none;
-         }
-      }
-      img:nth-child(2){
-        display: none;
-         @media screen and (max-width: 990px) {
-           display: block;
-           order: 5;
-         }
-      }
-    }
-    .orange{
-        img:first-child{
-         @media screen and (max-width: 990px) {
-           display: none;
-         }
-      }
-      img:nth-child(2){
-        display: none;
-         @media screen and (max-width: 990px) {
-           display: block;
-           order: 6;
-         }
-      }
-    }
-    .graphicDesign {
-      transform: translateY(-100%);
-      text-align: center;
-      color: hsl(167, 40%, 24%);
-      p {
-        width: 72%;
-        margin: 4rem auto;
-          color: hsl(167, 40%, 24%) ;
-      }
-    }
-    .graphicDesign + div {
-      transform: translateY(-100%);
-      color: hsl(198, 62%, 26%);
-      text-align: center;
-      p {
-        width: 60%;
-        margin: 4rem auto;
-         color: hsl(198, 62%, 26%);
-      }
-    }
   }
 }

@@ -256,6 +256,56 @@ body #sectionTwo .cup img:nth-child(2) {
   }
 }
 
+body #sectionTwo .graphicDesign {
+  text-align: center;
+  color: #25564b;
+  background-image: url(/images/desktop/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 50%;
+}
+
+@media screen and (min-width: 1215px) {
+  body #sectionTwo .graphicDesign {
+    padding-top: 54%;
+  }
+}
+
+@media screen and (min-width: 1884px) {
+  body #sectionTwo .graphicDesign {
+    padding-top: 57%;
+  }
+}
+
+body #sectionTwo .graphicDesign p {
+  width: 60%;
+  margin: 2rem auto;
+  color: #25564b;
+}
+
+body #sectionTwo .graphicDesign + div {
+  text-align: center;
+  color: #19536b;
+  background-image: url(/images/desktop/image-photography.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 54%;
+  background-position: center;
+}
+
+body #sectionTwo .graphicDesign + div p {
+  width: 60%;
+  margin: 2rem auto;
+  color: #19536b;
+}
+
+@media screen and (min-width: 1398px) {
+  body #sectionTwo .graphicDesign + div {
+    padding-top: 57%;
+  }
+}
+
 @media screen and (max-width: 990px) {
   body #sectionTwo .cherry img:first-child {
     display: none;
@@ -269,6 +319,11 @@ body #sectionTwo .cherry img:nth-child(2) {
 @media screen and (max-width: 990px) {
   body #sectionTwo .cherry img:nth-child(2) {
     display: block;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  body #sectionTwo .cherry {
     -webkit-box-ordinal-group: 6;
         -ms-flex-order: 5;
             order: 5;
@@ -288,35 +343,14 @@ body #sectionTwo .orange img:nth-child(2) {
 @media screen and (max-width: 990px) {
   body #sectionTwo .orange img:nth-child(2) {
     display: block;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  body #sectionTwo .orange {
     -webkit-box-ordinal-group: 7;
         -ms-flex-order: 6;
             order: 6;
   }
-}
-
-body #sectionTwo .graphicDesign {
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
-  text-align: center;
-  color: #25564b;
-}
-
-body #sectionTwo .graphicDesign p {
-  width: 72%;
-  margin: 4rem auto;
-  color: #25564b;
-}
-
-body #sectionTwo .graphicDesign + div {
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
-  color: #19536b;
-  text-align: center;
-}
-
-body #sectionTwo .graphicDesign + div p {
-  width: 60%;
-  margin: 4rem auto;
-  color: #19536b;
 }
 /*# sourceMappingURL=style.css.map */
