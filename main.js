@@ -14,4 +14,6 @@ close.onclick = function () {
 
 // preloader
 var loader = document.getElementById("preloader");
-
+window.addEventListener("load", () =>{
+  loader.style.display = "none";
+});
