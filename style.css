@@ -406,7 +406,7 @@ body .lastSection {
 
 body footer {
   padding-top: 4rem;
-  padding-bottom: 0;
+  padding-bottom: 1rem;
   background-color: #95c1b8;
   text-align: center;
   color: #458c7e;
@@ -483,5 +483,11 @@ body footer p {
   margin-top: 3rem;
   font-family: "Fraunces", serif;
   font-size: 1.3rem;
+}
+
+@media screen and (max-width: 990px) {
+  body footer p {
+    font-size: inherit;
+  }
 }
 /*# sourceMappingURL=style.css.map */

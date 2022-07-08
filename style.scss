@@ -304,7 +304,7 @@ body {
   footer {
     padding: {
       top: 4rem;
-      bottom: 0;
+      bottom: 1rem;
     }
     background-color: hsl(168deg, 26%, 67%);
     text-align: center;
@@ -355,9 +355,12 @@ body {
     }
     p {
       margin-top: 3rem;
-      // font-family: 'Barlow', sans-serif;
+     
       font-family: "Fraunces", serif;
    font-size: 1.3rem;
+    @media screen and (max-width: 990px){
+      font-size: inherit;
+    }
     }
   }
 }
