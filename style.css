@@ -403,4 +403,38 @@ body .lastSection {
         grid-template-columns: repeat(2, 1fr);
   }
 }
+
+body footer {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  background-color: #95c1b8;
+}
+
+body footer div:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body footer div:first-child img {
+  width: 15%;
+}
+
+body footer .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 41%;
+  margin: auto;
+}
+
+body footer .links a {
+  color: #458c7e;
+}
 /*# sourceMappingURL=style.css.map */
