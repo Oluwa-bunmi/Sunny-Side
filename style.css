@@ -396,4 +396,11 @@ body .lastSection {
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
 }
+
+@media screen and (max-width: 990px) {
+  body .lastSection {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
 /*# sourceMappingURL=style.css.map */
