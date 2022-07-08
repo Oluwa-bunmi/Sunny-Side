@@ -304,24 +304,53 @@ body {
   footer {
     padding: {
       top: 4rem;
-      bottom: 5rem;
+      bottom: 0;
     }
     background-color: hsl(168deg, 26%, 67%);
+    text-align: center;
+    color: hsl(168deg, 34%, 41%);
     div:first-child {
       display: flex;
       justify-content: center;
-      img{
+      img {
         width: 15%;
       }
     }
-    .links{
-    display: flex;
-    justify-content: space-between;
-    width: 41%;
-    margin: auto;
-    a{
-      color: hsl(168deg, 34%, 41%);
+    .footerLinks {
+      display: flex;
+      justify-content: space-between;
+      width: 41%;
+      margin: auto;
+      padding: {
+        top: 4rem;
+        bottom: 5rem;
+      }
+
+      a {
+        color: hsl(168deg, 34%, 41%);
+        font-size: 19px;
+        font-family: "Barlow", sans-serif;
+        font-weight: 700;
+      }
+          @media screen and (max-width: 990px){
+            width: 76%;
+          }
     }
+    .icons {
+      display: flex;
+      justify-content: space-between;
+      width: 18%;
+      margin: auto;
+
+      a:hover img {
+        transform: translateY(-8px);
+      }
+    }
+    p {
+      margin-top: 3rem;
+      // font-family: 'Barlow', sans-serif;
+      font-family: "Fraunces", serif;
+   font-size: 1.3rem;
     }
   }
 }

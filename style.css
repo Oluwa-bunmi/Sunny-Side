@@ -406,8 +406,10 @@ body .lastSection {
 
 body footer {
   padding-top: 4rem;
-  padding-bottom: 5rem;
+  padding-bottom: 0;
   background-color: #95c1b8;
+  text-align: center;
+  color: #458c7e;
 }
 
 body footer div:first-child {
@@ -423,7 +425,7 @@ body footer div:first-child img {
   width: 15%;
 }
 
-body footer .links {
+body footer .footerLinks {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -432,9 +434,42 @@ body footer .links {
           justify-content: space-between;
   width: 41%;
   margin: auto;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
 }
 
-body footer .links a {
+body footer .footerLinks a {
   color: #458c7e;
+  font-size: 19px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 990px) {
+  body footer .footerLinks {
+    width: 76%;
+  }
+}
+
+body footer .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 18%;
+  margin: auto;
+}
+
+body footer .icons a:hover img {
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+}
+
+body footer p {
+  margin-top: 3rem;
+  font-family: "Fraunces", serif;
+  font-size: 1.3rem;
 }
 /*# sourceMappingURL=style.css.map */
