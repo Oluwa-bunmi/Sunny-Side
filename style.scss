@@ -4,8 +4,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   text-decoration: none;
-  //   font-family: 'Barlow', sans-serif;
-  // font-family: 'Fraunces', serif;
+
 }
 body {
   .sectionOne {
@@ -92,6 +91,9 @@ body {
         }
       }
     }
+    .arrow{
+      animation: bounce 2s linear infinite;
+    }
     i {
       display: none;
       @media screen and (max-width: 767px) {
@@ -109,7 +111,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
 
-    // background-color: hsl(7deg, 67%, 96%);
+    background-color: hsl(7deg, 67%, 96%);
 
     @media screen and (max-width: 990px) {
       grid-template-columns: 1fr;
@@ -122,19 +124,11 @@ body {
     p {
       font-family: "Barlow", sans-serif;
       margin: {
-        top: 2rem;
+        top: 3rem;
         bottom: 2rem;
       }
       line-height: 24px;
       font-size: 18px;
-      color: hsl(210, 4%, 67%);
-    }
-    a {
-      font-family: "Fraunces", serif;
-      border-bottom: 7px solid hsl(51, 88%, 70%);
-      color: hsl(167, 40%, 24%);
-      border-bottom-left-radius: 6px;
-      border-bottom-right-radius: 6px;
     }
 
     .transform {
@@ -173,6 +167,7 @@ body {
       padding-bottom: 2rem;
       @media screen and (max-width: 990px) {
         order: 4;
+        text-align: center;
       }
     }
     .cup {
@@ -314,9 +309,9 @@ body {
       justify-content: center;
       img {
         width: 15%;
-          @media screen and (max-width: 990px){
-            width: 120px;
-          }
+        @media screen and (max-width: 990px) {
+          width: 120px;
+        }
       }
     }
     .footerLinks {
@@ -335,13 +330,12 @@ body {
         font-family: "Barlow", sans-serif;
         font-weight: 700;
       }
-          @media screen and (max-width: 990px){
-            width: 79%;
-            padding-top: 2rem;
-          }
+      @media screen and (max-width: 990px) {
+        width: 79%;
+        padding-top: 2rem;
+      }
     }
     .icons {
-     
       display: flex;
       justify-content: center;
       gap: 4rem;
@@ -349,18 +343,18 @@ body {
       a:hover img {
         transform: translateY(-8px);
       }
-       @media screen and (max-width: 425px){
+      @media screen and (max-width: 425px) {
         gap: 3rem;
-          }
+      }
     }
     p {
       margin-top: 3rem;
-     
+
       font-family: "Fraunces", serif;
-   font-size: 1.3rem;
-    @media screen and (max-width: 990px){
-      font-size: inherit;
-    }
+      font-size: 1.3rem;
+      @media screen and (max-width: 990px) {
+        font-size: inherit;
+      }
     }
   }
 }
