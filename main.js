@@ -11,3 +11,7 @@ close.onclick = function () {
   show.style.display = "block";
   close.style.display = "none";
 };
+
+// preloader
+var loader = document.getElementById("preloader");
+

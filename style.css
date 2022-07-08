@@ -488,4 +488,16 @@ body footer p {
     font-size: inherit;
   }
 }
+
+body #preloader {
+  background: #000;
+  background-image: url(/images/loader.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 9%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
 /*# sourceMappingURL=style.css.map */
