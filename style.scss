@@ -254,6 +254,7 @@ body {
     width: 90%;
     margin: auto;
     text-align: center;
+    padding-bottom: 5rem;
 
     h3 {
       color: hsl(232deg, 10%, 55%);
@@ -292,5 +293,9 @@ body {
         }
       }
     }
+  }
+  .lastSection{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
 }

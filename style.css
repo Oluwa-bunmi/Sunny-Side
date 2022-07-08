@@ -344,6 +344,7 @@ body .testimonial {
   width: 90%;
   margin: auto;
   text-align: center;
+  padding-bottom: 5rem;
 }
 
 body .testimonial h3 {
@@ -387,5 +388,12 @@ body .testimonial .clients div h4 {
   font-family: "Fraunces", serif;
   font-weight: 900;
   color: #23303e;
+}
+
+body .lastSection {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
 }
 /*# sourceMappingURL=style.css.map */
