@@ -1,1 +1,3 @@
-Frontend mentor challenge
+Learning grid - Frontend mentor challenge.
+Click to view: 
+

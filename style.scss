@@ -79,6 +79,7 @@ body {
     }
     .arrow {
       animation: bounce 2s linear infinite;
+          margin-top: 2rem;
     }
     i {
       display: none;
@@ -88,6 +89,32 @@ body {
         margin-top: -9px;
       }
     }
+    .responsive {
+  
+  display: flex !important;
+
+  width: 100%;
+  flex-direction: column;
+  background-color: #fff;
+  z-index: 1;
+
+  position: absolute;
+  top: 73px;
+  right: 0;
+  padding: {
+    top: 3rem;
+    bottom: 2rem;
+  }
+  clip-path: polygon(
+    0px 29px,
+    90.18% 28.5px,
+    101.64% -1.67%,
+    100% 100%,
+    0px 100%
+  );
+   
+
+}
    
   }
   #sectionTwo {
@@ -371,29 +398,4 @@ body {
     }
   }
 }
-.responsive {
-  
-  display: flex !important;
 
-  width: 100%;
-  flex-direction: column;
-  background-color: #fff;
-  z-index: 1;
-
-  position: absolute;
-  top: 73px;
-  right: 0;
-  padding: {
-    top: 3rem;
-    bottom: 2rem;
-  }
-  clip-path: polygon(
-    0px 29px,
-    90.18% 28.5px,
-    101.64% -1.67%,
-    100% 100%,
-    0px 100%
-  );
-     transition: all 500ms ease !important;
-
-}

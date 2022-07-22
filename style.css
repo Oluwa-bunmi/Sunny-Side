@@ -108,6 +108,7 @@ body .sectionOne header + div h1 {
 body .sectionOne .arrow {
   -webkit-animation: bounce 2s linear infinite;
           animation: bounce 2s linear infinite;
+  margin-top: 2rem;
 }
 
 body .sectionOne i {
@@ -120,6 +121,26 @@ body .sectionOne i {
     font-size: 1.5rem;
     margin-top: -9px;
   }
+}
+
+body .sectionOne .responsive {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  z-index: 1;
+  position: absolute;
+  top: 73px;
+  right: 0;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  -webkit-clip-path: polygon(0px 29px, 90.18% 28.5px, 101.64% -1.67%, 100% 100%, 0px 100%);
+          clip-path: polygon(0px 29px, 90.18% 28.5px, 101.64% -1.67%, 100% 100%, 0px 100%);
 }
 
 body #sectionTwo {
@@ -537,27 +558,5 @@ body #preloader {
     -webkit-transform: translateY(-4px);
             transform: translateY(-4px);
   }
-}
-
-.responsive {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  width: 100%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-color: #fff;
-  z-index: 1;
-  position: absolute;
-  top: 73px;
-  right: 0;
-  padding-top: 3rem;
-  padding-bottom: 2rem;
-  -webkit-clip-path: polygon(0px 29px, 90.18% 28.5px, 101.64% -1.67%, 100% 100%, 0px 100%);
-          clip-path: polygon(0px 29px, 90.18% 28.5px, 101.64% -1.67%, 100% 100%, 0px 100%);
-  -webkit-transition: all 500ms ease !important;
-  transition: all 500ms ease !important;
 }
 /*# sourceMappingURL=style.css.map */
